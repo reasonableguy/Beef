@@ -154,6 +154,9 @@ background-repeat: no-repeat;
     padding-top: calc(15% - 19px);
     line-height: normal;
     margin-bottom: 10px;
+		 white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 }
 @media only screen and (max-width: 768px) and (min-width: 601px)   {
@@ -168,6 +171,9 @@ background-repeat: no-repeat;
     padding-right: 5px;
     padding-top: calc(10% - 19px);
 	line-height:normal;
+		 white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 }
 @media only screen and (min-width: 769px) {
@@ -182,6 +188,9 @@ background-repeat: no-repeat;
     padding-right: 5px;
     padding-top: calc(5% - 19px);
 	line-height:normal;
+		 white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 }
 
