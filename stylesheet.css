@@ -28,9 +28,12 @@
 			font-weight:500;
     text-shadow: 1px 1px 4px white;
 		}
-		
-		.grid .home{
+		.home {
 			background-color:rgba(255,255,255,.7);
+}
+
+		.grid {
+			
 			padding-top:20px;
 			padding-bottom:20px;
 			display:inline-block;
