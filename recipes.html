@@ -18,7 +18,14 @@
 	</h1>
 
 <button onclick="w3.sortHTML('#id02', 'li')">Sort Alphabetically</button>
- 
+ <script>
+	 $("button").on("click", function() {
+  var el = $(this);
+  el.text() == el.data("text-swap") 
+    ? el.text(el.data("text-original")) 
+    : el.text(el.data("text-swap"));
+});
+	</script>
     <ul id="id02" class="grid">
       <li class="grid-item collection">
 	      <a class="recipe" href="ground/recipe">zrecipe thing</a>
