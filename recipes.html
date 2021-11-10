@@ -7,14 +7,16 @@
 </head>
 <body>
 	<div class="background" style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
-<div class="page">
+<div onload="w3.sortHTML('#coll', 'li')" class="page">
 	<h1>
 	Ground Beef
 	</h1>
-  <div class="grid">
+<script src="../lib/w3.js"></script>
+
+	<ul id="coll" class="grid">
 
    
-              <div class="grid-item"><a href="#" target="_blank">John zoe</a></div>
+              <li class="grid-item"><a href="#" target="_blank">John zoe</a></li>
     
    
 
@@ -22,18 +24,18 @@
 
 
    
-        <div class="grid-item"><a href="#" target="_blank">John aoe</a></div>
+        <li class="grid-item"><a href="#" target="_blank">John aoe</a></li>
     
     
 
 
   
       
-        <div class="grid-item"><a href="#" target="_blank">John foe</a>
+        <li class="grid-item"><a href="#" target="_blank">John foe</a>
     
 
-  </div>
-</div>
+  </li>
+</ul>
 
  
     <div class="grid">
