@@ -1,4 +1,10 @@
-		h1,h3,p,a,li {
+		* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+h1,h3,p,a,li {
 			font-family: 'Raleway', sans-serif;
 		}
 		h1{
