@@ -171,8 +171,16 @@ background-repeat: no-repeat;
 	 width: 33%;
 	float:left;
 		}
-			.recipe-page  > .grid-item{
+			.recipe-page  > .grid-item .one-third{
 	 width: 33%;
+	float:left;
+		}
+						.recipe-page  > .grid-item .two-thirds{
+	 width: 66%;
+	float:left;
+		}
+						.recipe-page  > .grid-item .one-whole{
+	 width: 100%;
 	float:left;
 		}
 		}
