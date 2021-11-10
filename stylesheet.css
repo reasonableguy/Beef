@@ -41,7 +41,36 @@ a {
 		.home {
 			background-color:rgba(255,255,255,.7);
 }
-.collection {
+@media only screen and (max-width: 600px) {
+	.collection {
+	width: 100%;
+    float: left;
+ background-color: rgba(255,255,255,.7);
+    padding-left: 5px;
+    margin: 1px;
+    height: 0;
+    padding-bottom: 5%;
+    padding-right: 5px;
+    padding-top: calc(5% - 19px);
+	line-height:.8em;
+}
+}
+@media only screen  (min-width: 601px) and (max-width: 768px) {
+	.collection {
+	width: 50%;
+    float: left;
+ background-color: rgba(255,255,255,.7);
+    padding-left: 5px;
+    margin: 1px;
+    height: 0;
+    padding-bottom: 5%;
+    padding-right: 5px;
+    padding-top: calc(5% - 19px);
+	line-height:.8em;
+}
+}
+@media only screen and (min-width: 769px) {
+	.collection {
 	width: 33%;
     float: left;
  background-color: rgba(255,255,255,.7);
@@ -52,6 +81,7 @@ a {
     padding-right: 5px;
     padding-top: calc(5% - 19px);
 	line-height:.8em;
+}
 }
 		.grid {
 			
