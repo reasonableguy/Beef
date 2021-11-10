@@ -26,7 +26,7 @@ h1,h3,p,a,li {
 		}
 		.recipe {
 			text-transform:capitalize;
-			font-size:1em;
+			font-size:1em !important;
 }
 a {
 			    color: #444444;
