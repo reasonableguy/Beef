@@ -128,7 +128,7 @@ background-repeat: no-repeat;
 		ul {
 			list-style-type: none;
 		}
-		li {
+		.home > .grid-item > li {
 			margin: 20px 5px;
 			font-size: 1.2em;
 			text-transform: uppercase;
@@ -149,6 +149,10 @@ background-repeat: no-repeat;
 				.recipe-page  > .grid-item.one-whole{
 	width: 100%;
 		}
+				.recipe-page > .grid-item > li {
+			margin: 20px 5px;
+			font-size: .8em;
+					}
 }
 		@media only screen and (min-width: 601px) {
 			body {
@@ -168,12 +172,17 @@ background-repeat: no-repeat;
 		ul {
 			list-style-type: none;
 		}
-		li {
+		.home > .grid-item > li {
 			margin: 20px 5px;
 			font-size: 1.5em;
 			text-transform: uppercase;
 			letter-spacing: 2px;
 		}
+			
+			.recipe-page > .grid-item > li {
+			margin: 20px 5px;
+			font-size: .8em;
+					}
 		a {
 			text-decoration: none;
 		}
