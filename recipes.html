@@ -15,23 +15,23 @@
  
     <div class="grid">
       <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe thing</a>
+	      <a id="z" class="recipe" href="ground/recipe">recipe thing</a>
       </div>
         <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">really really really really long recipereally really really really long recipe</a>
+	      <a id="a" cclass="recipe" href="ground/recipe">really really really really long recipereally really really really long recipe</a>
       </div>
         <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe</a>
+	      <a id="b" cclass="recipe" href="ground/recipe">brecipe</a>
       </div>  <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe</a>
+	      <a id="c" cclass="recipe" href="ground/recipe">crecipe</a>
       </div>
         <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe</a>
+	      <a id="d" cclass="recipe" href="ground/recipe">drecipe</a>
       </div>
         <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe</a>
+	      <a id="e" cclass="recipe" href="ground/recipe">erecipe</a>
       </div>  <div class="grid-item collection">
-	      <a class="recipe" href="ground/recipe">recipe</a>
+	      <a id="f" cclass="recipe" href="ground/recipe">frecipe</a>
       </div>
         <div class="grid-item collection">
 	      <a class="recipe" href="ground/recipe">recipe</a>
@@ -40,4 +40,19 @@
 </div>
   </div>
 </body>
+	<script>
+		// Function based on id of element
+function sortGrid(){
+    const gridObject = document.querySelectorAll('.gridObject')
+    let array = [];
+    gridObject.forEach(grid =>  array.push(grid.getAttribute("id")))
+    array.sort()
+    array.forEach((item, index) => array[index] = document.querySelector("#"+item))
+    const gridContainer = document.querySelector('#gridContainer');
+    gridContainer.innerHTML = ""
+    array.forEach(grid => gridContainer.innerHTML += grid.outerHTML)
+}
+
+ sortGrid()
+	</script>
 </html>
