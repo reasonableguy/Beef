@@ -70,6 +70,9 @@ button {
     font-size: 1em;
     letter-spacing: 1px;
 }
+button .active {
+	color:red;
+}
 			
 		@media only screen and (max-width: 600px) {
  		body {
