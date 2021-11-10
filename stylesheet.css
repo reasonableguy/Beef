@@ -41,6 +41,10 @@ a {
 		.home {
 			background-color:rgba(255,255,255,.7);
 }
+
+.recipe-page {
+	background-color:rgba(255,255,255,.7);
+}
 @media only screen and (max-width: 600px) {
 	.collection {width: 100%;
     float: left;
