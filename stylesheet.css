@@ -146,6 +146,7 @@ background-repeat: no-repeat;
     -webkit-box-orient: vertical;
 }
 
+
 @media only screen and (max-width: 600px) {
 	.collection {width: 100%;
     float: left;
@@ -159,6 +160,19 @@ background-repeat: no-repeat;
     line-height: normal;
     margin-bottom: 10px;
 	}
+	.recipe:hover > .collection {
+background-color: rgba(255,0,255,.7);
+    padding-left: 5px;
+    margin: 1px;
+    height: 0;
+    padding-bottom: 30%;
+    padding-right: 5px;
+    padding-top: 0;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+	
 }
 @media only screen and (max-width: 768px) and (min-width: 601px)   {
 	.collection {
