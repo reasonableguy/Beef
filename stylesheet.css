@@ -188,9 +188,9 @@ background-repeat: no-repeat;
     padding-right: 5px;
     padding-top: calc(5% - 19px);
 	line-height:normal;
-		 white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+	   -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 }
 
