@@ -51,6 +51,7 @@ a {
     padding-bottom: 5%;
     padding-right: 5px;
     padding-top: calc(5% - 19px);
+	line-height:.8em;
 }
 		.grid {
 			
