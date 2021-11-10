@@ -42,17 +42,17 @@ a {
 			background-color:rgba(255,255,255,.7);
 }
 @media only screen and (max-width: 600px) {
-	.collection {
-	width: 100%;
+width: 100%;
     float: left;
- background-color: rgba(255,0,255,.7);
+    background-color: rgba(255,0,255,.7);
     padding-left: 5px;
     margin: 1px;
     height: 0;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     padding-right: 5px;
-    padding-top: calc(5% - 19px);
-	line-height:.8em;
+    padding-top: calc(15% - 19px);
+    line-height: .8em;
+    margin-bottom: 10px;
 }
 }
 @media only screen and (max-width: 768px) and (min-width: 601px)   {
