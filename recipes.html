@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="stylesheet.css">
 	
 </head>
-<body onload="sortGrid()">
+<body>
 	<div class="background" style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
 <div class="page">
 	<h1>
@@ -41,18 +41,13 @@
   </div>
 </body>
 	<script>
-		// Function based on id of element
-function sortGrid(){
-    const gridObject = document.querySelectorAll('.gridObject')
-    let array = [];
-    gridObject.forEach(grid =>  array.push(grid.getAttribute("id")))
-    array.sort()
-    array.forEach((item, index) => array[index] = document.querySelector("#"+item))
-    const gridContainer = document.querySelector('#gridContainer');
-    gridContainer.innerHTML = ""
-    array.forEach(grid => gridContainer.innerHTML += grid.outerHTML)
-}
+var alphabeticallyOrderedDivs = $('.grid-item').sort(function(a, b) {
+  return String.prototype.localeCompare.call($(a).text().toLowerCase(), $(b).text().toLowerCase());
+});
 
- sortGrid()
+var grid = $(".grid");
+grid.detach().empty().append(alphabeticallyOrderedDivs);
+$('body').append(grid);
+
 	</script>
 </html>
