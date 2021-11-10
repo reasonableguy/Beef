@@ -118,12 +118,13 @@ background-repeat: no-repeat;
 		.home > .grid-item {
 	 		width: 100%;
 			}
+}
 
 
 		@media only screen and (min-width: 601px) {
 		
 
-		.home > .grid-item > ul >li {
+		.home > .grid-item > ul > li {
 			margin: 20px 5px;
 			font-size: 1.5em;
 			text-transform: uppercase;
