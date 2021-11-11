@@ -227,11 +227,7 @@ a.recipe {
 
 }
 	
-.recipe {
-  --max-lines: 2;
-  max-height: 38px;
-  overflow: hidden;
-}
+
 
 
 }
