@@ -138,13 +138,7 @@ background-repeat: no-repeat;
 
 		}
 /*------------------------------------------------------ COLLECTIONS ------------------------------------------------------*/
-.recipe {
-			text-transform:capitalize;
-	overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-}
+
 
 
 @media only screen and (max-width: 600px) {
