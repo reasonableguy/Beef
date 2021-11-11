@@ -191,7 +191,7 @@ background-repeat: no-repeat;
     padding-top: calc(5% - 19px);
 	}
 	
-	collection:hover a.recipe  {
+	.collection:hover a.recipe  {
 text-transform: uppercase;
     overflow: unset;
     display: -webkit-box;
