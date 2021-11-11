@@ -6,7 +6,15 @@
     -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
 }
-
+html {
+	height:100%;
+}
+body {
+	height:100%;
+}
+page {
+	height:calc(100%)-(200px);
+}
 h1,h3,p,a,li,button {
 			font-family: 'Raleway', sans-serif;
 		}
