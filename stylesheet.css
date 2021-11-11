@@ -1,8 +1,5 @@
 /*------------------------------------------------------ GLOBAL ------------------------------------------------------*/
-html {
-		--lh: 1.4rem;
-  line-height: var(--lh);
-}
+
 
 * { 
     -moz-box-sizing: border-box; 
@@ -232,16 +229,11 @@ a.recipe {
 	
 .recipe {
   --max-lines: 2;
-  max-height: calc(var(--lh) * var(--max-lines));
+  max-height: 38px;
   overflow: hidden;
 }
 
-	.recipe::before {
-  content: "...";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
+
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
