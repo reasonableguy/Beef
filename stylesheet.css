@@ -151,18 +151,50 @@ background-repeat: no-repeat;
 
 
 @media only screen and (max-width: 600px) {
-	.collection {width: 100%;
+	.collection {
+	width: 100%;
     float: left;
-    background-color: rgba(255,0,255,.7);
+ background-color: rgba(255,255,255,.7);
     padding-left: 5px;
     margin: 1px;
     height: 0;
     padding-bottom: 15%;
     padding-right: 5px;
     padding-top: calc(15% - 19px);
-    line-height: normal;
-    margin-bottom: 10px;
+	    z-index:0;
+    overflow:hidden;
+    position:relative; 
 	}
+	
+			.collection:hover   {
+     background-color:rgba(255,255,255,1);
+overflow:visible;
+    z-index:100;
+}
+a.recipe { 
+       position: absolute;
+    background-color:rgba(255,255,255,.7);
+    width: 100%;
+    left: 0;
+    right: 0;
+	  top: 0;
+    bottom: 0;
+	  overflow: hidden;
+	padding: 10px;
+
+}
+	
+
+
+	.collection:hover a.recipe  {
+    		background-color:rgba(255,255,255,1);
+			z-index: 100;
+		overflow: overlay;
+ 		display: block;
+		bottom: unset;
+    		
+
+}
 	
 
 	
@@ -171,15 +203,47 @@ background-repeat: no-repeat;
 	.collection {
 	width: 49%;
     float: left;
- background-color: rgba(0,255,255,.7);
+ background-color: rgba(255,255,255,.7);
     padding-left: 5px;
-    margin: 2px;
+    margin: 1px;
     height: 0;
     padding-bottom: 10%;
     padding-right: 5px;
     padding-top: calc(10% - 19px);
-	line-height:normal;
-		}
+	    z-index:0;
+    overflow:hidden;
+    position:relative; 
+	}
+	
+			.collection:hover   {
+     background-color:rgba(255,255,255,1);
+overflow:visible;
+    z-index:100;
+}
+a.recipe { 
+       position: absolute;
+    background-color:rgba(255,255,255,.7);
+    width: 100%;
+    left: 0;
+    right: 0;
+	  top: 0;
+    bottom: 0;
+	  overflow: hidden;
+	padding: 10px;
+
+}
+	
+
+
+	.collection:hover a.recipe  {
+    		background-color:rgba(255,255,255,1);
+			z-index: 100;
+		overflow: overlay;
+ 		display: block;
+		bottom: unset;
+    		
+
+}
 }
 @media only screen and (min-width: 769px) {
 	.collection {
