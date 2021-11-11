@@ -14,7 +14,7 @@ body {
 	margin:0 !important;
 }
 .page {
-	min-height:90%;
+	min-height:calc(100% - 130px);
 	margin-top:40px;
 }
 h1,h3,p,a,li,button {
