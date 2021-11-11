@@ -197,13 +197,13 @@ background-repeat: no-repeat;
 	}
 	
 			.collection:hover   {
-     background-color:rgba(255,255,255,1)
+     background-color:rgba(255,255,255,1);
 overflow:visible;
     z-index:100;
 }
 a.recipe { 
        position: absolute;
-    background-color:rgba(255,255,255,.7)
+    background-color:rgba(255,255,255,.7);
     width: 100%;
     left: 0;
     right: 0;
@@ -213,7 +213,7 @@ a.recipe {
 
 }	
 	.collection:hover a.recipe  {
-    		background-color:rgba(255,255,255,1)
+    		background-color:rgba(255,255,255,1);
 			z-index: 100;
 		overflow: overlay;
  		display: block;
