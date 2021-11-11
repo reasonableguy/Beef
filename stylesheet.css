@@ -160,17 +160,7 @@ background-repeat: no-repeat;
     line-height: normal;
     margin-bottom: 10px;
 	}
-	.recipe:hover  .collection {
-background-color: rgba(255,0,0,.7);
-    padding-left: 5px;
-    margin: 1px;
-    height: 0;
-    padding-bottom: 30%;
-    padding-right: 5px;
-    padding-top: 0;
-    line-height: normal;
-    margin-bottom: 10px;
-}
+	
 
 	
 }
@@ -200,6 +190,19 @@ background-color: rgba(255,0,0,.7);
     padding-right: 5px;
     padding-top: calc(5% - 19px);
 	}
+	
+	a.recipe:hover  {
+background-color: rgba(255,0,0,.7);
+    padding-left: 5px;
+    margin: 1px;
+    height: 0;
+    padding-bottom: 30%;
+    padding-right: 5px;
+    padding-top: 0;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+	
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
