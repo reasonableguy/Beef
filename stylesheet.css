@@ -189,21 +189,25 @@ background-repeat: no-repeat;
     padding-bottom: 5%;
     padding-right: 5px;
     padding-top: calc(5% - 19px);
+	    z-index:0;
+    overflow:hidden;
+    position:relative; 
 	}
 	
+			.collection:hover   {
+    overflow:visible;
+    z-index:100;
+}
+a.recipe { 
+    position: absolute;
+    background: white;
+    width: 100%;
+}	
 	.collection:hover a.recipe  {
-text-transform: uppercase;
-    overflow: unset;
-position:relative;
-		z-index:99;
-		background-color:#ffffff;
+    z-index: 100;
 }
 	
-		.collection:hover   {
-position:relative;
-		z-index:90;
-		background-color:#ffffff;
-}
+
 	
 }
 
