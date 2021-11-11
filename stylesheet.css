@@ -197,7 +197,8 @@ background-repeat: no-repeat;
 	}
 	
 			.collection:hover   {
-    overflow:visible;
+    background: white;
+overflow:visible;
     z-index:100;
 }
 a.recipe { 
