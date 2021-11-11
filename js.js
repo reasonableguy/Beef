@@ -1,5 +1,4 @@
 
-	<script>
 var alphabeticallyOrderedDivs = $('.grid-item').sort(function(a, b) {
   return String.prototype.localeCompare.call($(a).text().toLowerCase(), $(b).text().toLowerCase());
 });
@@ -8,8 +7,6 @@ var grid = $(".grid");
 grid.detach().empty().append(alphabeticallyOrderedDivs);
 $('body').append(grid);
 
-	</script>
-	<script>
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -37,12 +34,9 @@ function includeHTML() {
     }
   }
 };
-</script>
 
 
 
 
-
-<script>
 includeHTML();
-</script>
+
