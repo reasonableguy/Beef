@@ -180,7 +180,7 @@ a.recipe {
 	  top: 0;
     bottom: 0;
 	  overflow: hidden;
-	padding: 50px;
+	padding: 10% 5%;
 
 }
 	
@@ -229,7 +229,7 @@ a.recipe {
 	  top: 0;
     bottom: 0;
 	  overflow: hidden;
-	padding: 30px;
+	padding: 10% 5%;
 
 }
 	
@@ -275,7 +275,7 @@ a.recipe {
 	  top: 0;
     bottom: 0;
 	  overflow: hidden;
-	padding: 10px;
+	padding: 10% 5%;
 
 }
 	
