@@ -1,4 +1,8 @@
 /*------------------------------------------------------ GLOBAL ------------------------------------------------------*/
+html {
+		--lh: 1.4rem;
+  line-height: var(--lh);
+}
 
 * { 
     -moz-box-sizing: border-box; 
@@ -212,7 +216,10 @@ a.recipe {
 	  overflow: hidden;
 	padding: 10px;
 
-}	
+}
+	
+
+
 	.collection:hover a.recipe  {
     		background-color:rgba(255,255,255,1);
 			z-index: 100;
@@ -223,8 +230,18 @@ a.recipe {
 
 }
 	
+.recipe {
+  --max-lines: 2;
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+}
 
-	
+	.recipe::before {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
