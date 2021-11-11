@@ -203,9 +203,11 @@ background-repeat: no-repeat;
 a.recipe { 
        position: absolute;
     background: white;
-    width: 90%;
-    left: 5%;
-    right: 5%;
+    width: 100%;
+    left: 0;
+    right: 0;
+	  top: 0;
+    bottom: 0;
 	  overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -215,7 +217,7 @@ a.recipe {
     z-index: 100;
 			  overflow: overlay;
   display: block;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 	
