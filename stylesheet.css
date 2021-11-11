@@ -209,16 +209,13 @@ a.recipe {
 	  top: 0;
     bottom: 0;
 	  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+
 }	
 	.collection:hover a.recipe  {
     z-index: 100;
-			  overflow: overlay;
+		overflow: overlay;
   display: block;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+
 }
 	
 
