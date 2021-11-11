@@ -191,9 +191,9 @@ background-repeat: no-repeat;
     padding-top: calc(5% - 19px);
 	}
 	
-	a.recipe:hover  {
+	collection:hover a.recipe  {
 text-transform: uppercase;
-    overflow: hidden;
+    overflow: unset;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
