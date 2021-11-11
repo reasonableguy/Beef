@@ -210,6 +210,7 @@ a.recipe {
 	  top: 0;
     bottom: 0;
 	  overflow: hidden;
+	padding: 10px;
 
 }	
 	.collection:hover a.recipe  {
