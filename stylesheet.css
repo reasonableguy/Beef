@@ -199,6 +199,12 @@ position:relative;
 		background-color:#ffffff;
 }
 	
+		.collection:hover   {
+position:relative;
+		z-index:90;
+		background-color:#ffffff;
+}
+	
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
