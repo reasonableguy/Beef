@@ -9,17 +9,18 @@
 	<div w3-include-html="header.html"></div>
 
 <body>
-	<?php
-$dir_open = opendir('.');
+<?php
+$dir = "/cheaper-cuts";
 
-while(false !== ($filename = readdir($dir_open))){
-    if($filename != "." && $filename != ".."){
-        $link = "<a href='./$filename'> $filename dave</a><br />";
-        echo $link;
+// Open a directory, and read its contents
+if (is_dir($dir)){
+  if ($dh = opendir($dir)){
+    while (($file = readdir($dh)) !== false){
+      echo "filename:" . $file . "<br>";
     }
+    closedir($dh);
+  }
 }
-
-closedir($dir_open);
 ?>
 	
 	<div class="background" style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
