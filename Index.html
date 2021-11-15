@@ -9,7 +9,7 @@
 	<div w3-include-html="header.html"></div>
 
 <body>
-<?php
+<div style="width:100%; background-color:white;"><?php
 $dir = "/cheaper-cuts";
 
 // Open a directory, and read its contents
@@ -21,7 +21,7 @@ if (is_dir($dir)){
     closedir($dh);
   }
 }
-?>
+?></div>
 	
 	<div class="background" style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
 <div class="page">
