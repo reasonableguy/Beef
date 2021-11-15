@@ -10,18 +10,17 @@
 <div w3-include-html="/js.html"></div>
 
 <body>
-<?php 
-$dir = "/cheaper-cuts";
+<?php
+$dir = "/";
 
-// Open a directory, and read its contents
+// Sort in ascending order - this is default
+$a = scandir($dir);
 
-  if ($dh = opendir($dir)){
-    while (($file = readdir($dh)) !== false){
-      echo "filename:" . $file . "<br>";
-    }
-    closedir($dh);
-  }
+// Sort in descending order
+$b = scandir($dir,1);
 
+print_r($a);
+print_r($b);
 ?>
 
 
