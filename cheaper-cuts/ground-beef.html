@@ -10,19 +10,19 @@
 <div w3-include-html="/js.html"></div>
 
 <body>
-<div style="width:100%; background-color:white;">
-	<?php
-$d = dir(getcwd());
+<?php 
+$dir = "/cheaper-cuts";
 
-echo "Handle: " . $d->handle . "<br>";
-echo "Path: " . $d->path . "<br>";
+// Open a directory, and read its contents
 
-while (($file = $d->read()) !== false){
-  echo "filename: " . $file . "<br>";
-}
-$d->close();
+  if ($dh = opendir($dir)){
+    while (($file = readdir($dh)) !== false){
+      echo "filename:" . $file . "<br>";
+    }
+    closedir($dh);
+  }
+
 ?>
-	</div>
 
 
 
