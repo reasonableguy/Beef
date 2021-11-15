@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+<div w3-include-html="header.html"></div>
+<div w3-include-html="js.html"></div>
+<div w3-include-html="footer.html"></div>
+<body>
+
+
+
+
+	<div class="background" style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
+<div class="page">
+	<h1>
+	Ground Beef
+	</h1>
+
+<button onclick="w3.sortHTML('#id02', 'li')">Sort Alphabetically</button><button onClick="window.location.reload();">Newest First</button>
+    <ul id="id02" class="grid">
+      <li class="grid-item collection">
+	      <a class="recipe" href="recipes">This is recipe with a thing and beef</a>
+      </li>
+        <li class="grid-item collection">
+	      <a class="recipe" href="recipes">A recipe with a thing and beef</a>
+      </li>
+        <li class="grid-item collection">
+	      <a class="recipe" href="recipes">Some recipe with a thing and beef</a>
+      </li>  
+	<li class="grid-item collection">
+	      <a class="recipe" href="recipes">Here's a recipe with a thing and beef</a>
+      </li>
+        <li class="grid-item collection">
+	      <a class="recipe" href="recipes">Another recipe with a thing and beef</a>
+      </li>
+        <li class="grid-item collection">
+	      <a class="recipe" href="recipes">My recipe with a thing and beef</a>
+      </li>  <li class="grid-item collection">
+	      <a class="recipe" href="recipes">Grandma's recipe with a thing and beef</a>
+      </li>
+        <li class="grid-item collection">
+	      <a class="recipe" href="recipes">Fave recipe with a thing and beef</a>
+      </li>
+      
+</ul>
+  </div>
+</body>
+	<script>
+var alphabeticallyOrderedDivs = $('.grid-item').sort(function(a, b) {
+  return String.prototype.localeCompare.call($(a).text().toLowerCase(), $(b).text().toLowerCase());
+});
+
+var grid = $(".grid");
+grid.detach().empty().append(alphabeticallyOrderedDivs);
+$('body').append(grid);
+
+	</script>
+	<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+
+
+
+
+<script>
+includeHTML();
+</script>
+
+</html>
