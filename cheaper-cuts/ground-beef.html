@@ -10,17 +10,19 @@
 <div w3-include-html="/js.html"></div>
 
 <body>
-<?php
-// Read directory, spit out links
-if ($handle = opendir('.')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-            echo '<a href="/'.$entry.'">Link to file '.$entry.'</a><br>';
-        }
+<div style="width:100%; background-color:white;"><?php
+$dir = "/cheaper-cuts";
+
+// Open a directory, and read its contents
+if (is_dir($dir)){
+  if ($dh = opendir($dir)){
+    while (($file = readdir($dh)) !== false){
+      echo "filename:" . $file . "<br>";
     }
-    closedir($handle);
+    closedir($dh);
+  }
 }
-?>
+?></div>
 
 
 
