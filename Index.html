@@ -69,11 +69,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("navbar").style.fontSize = "2em";
-	     navbar.classList.add("sticky");
+    document.getElementById("navbar").classList.add("sticky");
   } else {
-    document.getElementById("navbar").style.fontSize = "1em";
-	     navbar.classList.remove("sticky");
+    document.getElementById("navbar").classList.remove("sticky");
   }
 }
 	</script>	
