@@ -15,7 +15,7 @@ body {
 }
 .page {
 	min-height:calc(100% - 130px);
-	margin-top:40px;
+	margin-top:4em;
 }
 h1,h3,p,a,li,button {
 			font-family: 'Raleway', sans-serif;
@@ -27,6 +27,7 @@ h1,h3,p,a,li,button {
 			text-transform: uppercase;
     			letter-spacing: 3px;
 			/* text-shadow: 1px 1px 4px white;*/
+			margin-top:0;
 		}
 		h3{
 			font-size:1.5em;
