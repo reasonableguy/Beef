@@ -5,7 +5,7 @@
          margin: 0;
          top:0px;
          left:0;
-         background-color: blue;
+         background-color: black;
          min-height: 80px;
          width:100%;
          transition: top 666ms;
@@ -13,7 +13,7 @@
      #header-content {
          margin: 0;
          padding: 10px;
-         background-color: lightblue;
+         background-color: gray;
          min-height: 75px;
          box-sizing:border-box;
      }
