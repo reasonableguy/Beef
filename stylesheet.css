@@ -324,6 +324,23 @@ a.recipe {
 				.recipe-page  > .grid-item.one-whole{
 	width: 100%;
 		}
+	.recipe-page > .grid-item > img {
+		width:100%
+		}
+		
+		.recipe-page > .grid-item > ul {	
+		    padding-inline-start: 10% !important;
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+    text-align: left !important;
+}
+				.recipe-page > .grid-item > ol {	
+		    padding-inline-start: 10% !important;
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+    text-align: left !important;
+}
+		
 				.recipe-page > .grid-item > ul > li {
 			margin: 20px 5px;
 			font-size: .8em;
