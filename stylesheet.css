@@ -313,7 +313,9 @@ a.recipe {
 .recipe-page {
 	background-color:rgba(255,255,255,.7);
 }
-
+.recipe-page h2 {
+	padding-inline-start: 10%;
+}
 	.recipe-page > .grid-item > img {
 		width:100%
 		}
