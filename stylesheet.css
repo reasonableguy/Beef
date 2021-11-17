@@ -312,6 +312,7 @@ a.recipe {
 
 .recipe-page {
 	background-color:rgba(255,255,255,.7);
+	padding-top:0 !important;
 }
 .recipe-page h2 {
 	padding-inline-start: 10%;
@@ -320,9 +321,6 @@ a.recipe {
 		width:100%;
 		}
 
-.recipe-page  .grid  {
-		padding-top:0 !important;
-		}
 		
 		.recipe-page > .grid-item > ul {	
 		    padding-inline-start: 10% !important;
