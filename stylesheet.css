@@ -321,7 +321,7 @@ a.recipe {
 		}
 
 .recipe-page  .grid  {
-		padding-top:0;
+		padding-top:0 !important;
 		}
 		
 		.recipe-page > .grid-item > ul {	
