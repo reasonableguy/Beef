@@ -313,17 +313,7 @@ a.recipe {
 .recipe-page {
 	background-color:rgba(255,255,255,.7);
 }
-	@media only screen and (max-width: 600px) {
- 		
-		.recipe-page  > .grid-item.one-third{
-	width: 100%;
-		}
-				.recipe-page  > .grid-item.two-thirds{
-	width: 100%;
-		}
-				.recipe-page  > .grid-item.one-whole{
-	width: 100%;
-		}
+
 	.recipe-page > .grid-item > img {
 		width:100%
 		}
@@ -340,6 +330,19 @@ a.recipe {
     list-style-position: inside !important;
     text-align: left !important;
 }
+
+	@media only screen and (max-width: 600px) {
+ 		
+		.recipe-page  > .grid-item.one-third{
+	width: 100%;
+		}
+				.recipe-page  > .grid-item.two-thirds{
+	width: 100%;
+		}
+				.recipe-page  > .grid-item.one-whole{
+	width: 100%;
+		}
+
 		
 				.recipe-page > .grid-item > ul > li {
 			margin: 20px 5px;
