@@ -317,7 +317,11 @@ a.recipe {
 	padding-inline-start: 10%;
 }
 	.recipe-page > .grid-item > img {
-		width:100%
+		width:100%;
+		}
+
+.recipe-page  .grid  {
+		padding-top:0;
 		}
 		
 		.recipe-page > .grid-item > ul {	
