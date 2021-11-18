@@ -342,7 +342,7 @@ a.recipe {
 .recipe-page .category:hover {
 color:white;
 border: 1px solid white;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.5);
 }
 .recipe-page .category:hover input {
 color:white;
