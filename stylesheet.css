@@ -321,7 +321,7 @@ a.recipe {
     margin-block-start: 0;
 }
 
-.recipe-page input {
+.recipe-page .category p {
 	background-color: transparent;
     border: 0px;
     font-size: .8em;
