@@ -303,10 +303,7 @@ a.recipe {
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
-	.ingredients {
-		text-align:left;
-}
-	.directions {
+	.ingredients, .directions {
 		text-align:left;
 }
 
@@ -359,12 +356,14 @@ color:white;
 		
 		.method > .grid-item > ul {	
 		    padding-inline-start: 10% !important;
+			padding-inline-end: 5% !important;
     list-style-type: disc !important;
     list-style-position: inside !important;
     text-align: left !important;
 }
 				.method > .grid-item > ol {	
 		    padding-inline-start: 10% !important;
+					padding-inline-end: 5% !important;
     list-style-type: decimal !important;
     list-style-position: inside !important;
     text-align: left !important;
