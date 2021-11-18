@@ -371,7 +371,12 @@ color:white;
 }
 
 	@media only screen and (max-width: 600px) {
- 		.recipe-page h2 {
+ 			.method {
+			display:grid;
+			grid-template-columns:100%;
+			}
+		
+		.recipe-page h2 {
 text-align:center;
 		}
 		.recipe-page  > .grid-item.one-third{
@@ -393,6 +398,10 @@ text-align:center;
 					}
 }
 		@media only screen and (min-width: 601px) {
+			.method {
+			display:grid;
+			grid-template-columns:33% 66%;
+			}
 			
 			.recipe-page h2 {
 	padding-inline-start: 10%;
