@@ -328,7 +328,7 @@ a.recipe {
     text-align: left;
     padding: 6px 0 6px 6px;
 }
-.recipe-page category:after {
+.recipe-page .category:after {
 	background-color: transparent;
     border: 0px;
     font-size: .8em;
