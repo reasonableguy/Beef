@@ -62,6 +62,7 @@ a {
 margin-right: auto;
 left: 0;
 right: 0;
+	max-width:1440px;
 }
 
 		.grid {
