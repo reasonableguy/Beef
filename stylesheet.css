@@ -346,7 +346,9 @@ a.recipe {
 				.recipe-page  > .grid-item.one-whole{
 	width: 100%;
 		}
-
+	.recipe-page  > .grid-item.timing{
+	width: 100%;
+		}
 		
 				.recipe-page > .grid-item > ul > li {
 			margin: 20px 5px;
@@ -372,6 +374,11 @@ a.recipe {
 	 width: 33%;
 	float:left;
 		}
+				.recipe-page  > .grid-item.timing{
+	width:33% !important;
+margin-left:33%;
+					text-align:left;
+			}
 						.recipe-page  > .grid-item.two-thirds{
 	 width: 66%;
 	float:left;
