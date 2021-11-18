@@ -335,6 +335,10 @@ a.recipe {
     text-align: left;
     padding: 6px 6px 6px 0;
 }
+.recipe-page .category:hover {
+color:white;
+}
+
 	.recipe-page > .grid-item > img {
 		width:100%;
 		}
