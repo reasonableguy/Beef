@@ -333,7 +333,7 @@ a.recipe {
 }
 				.recipe-page > .grid-item > ol {	
 		    padding-inline-start: 10% !important;
-    list-style-type: disc !important;
+    list-style-type: decimal !important;
     list-style-position: inside !important;
     text-align: left !important;
 }
@@ -353,24 +353,16 @@ a.recipe {
 	width: 100%;
 		}
 		
-				.recipe-page > .grid-item > ul > li {
+				.recipe-page > .grid-item li {
 			margin: 20px 5px;
-			font-size: .8em;
-					}
-				.recipe-page > .grid-item > ol > li {
-			margin: 20px 5px;
-			font-size: .8em;
+			font-size: 1em;
 					}
 }
 		@media only screen and (min-width: 601px) {
 		
-			.recipe-page > .grid-item >  ul > li {
+			.recipe-page > .grid-item  li {
 			margin: 20px 5px;
-			font-size: .8em;
-					}
-			.recipe-page > .grid-item >  ol > li {
-			margin: 20px 5px;
-			font-size: .8em;
+			font-size: 1em;
 					}
 		
 			.recipe-page  > .grid-item.one-third{
