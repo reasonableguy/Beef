@@ -357,13 +357,13 @@ color:white;
 		}
 
 		
-		.recipe-page > .grid-item > ul {	
+		.method > .grid-item > ul {	
 		    padding-inline-start: 10% !important;
     list-style-type: disc !important;
     list-style-position: inside !important;
     text-align: left !important;
 }
-				.recipe-page > .grid-item > ol {	
+				.method > .grid-item > ol {	
 		    padding-inline-start: 10% !important;
     list-style-type: decimal !important;
     list-style-position: inside !important;
@@ -394,7 +394,7 @@ text-align:center;
 	width: 100%;
 		}
 		
-				.recipe-page > .grid-item li {
+				.method > .grid-item li {
 			margin: 20px 5px;
 			font-size: 1em;
 					}
@@ -411,7 +411,7 @@ text-align:center;
 	padding-inline-start: 10%;
 }
 		
-			.recipe-page > .grid-item  li {
+			.method > .grid-item  li {
 			margin: 20px 5px;
 			font-size: 1em;
 					}
