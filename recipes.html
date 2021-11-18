@@ -11,6 +11,8 @@
 	.category:after {
 		content:'Ground Beef';
 	}
+	.category {
+float:left;	}
 /* INSERT RECIPE TITLE */
 	.recipe-title:after {
 		content:'Korean Beef Bowl';
@@ -57,13 +59,12 @@
  <div class="grid-item one-whole"><img id="mypic" src="">
  </div>
 	 <input
-    action="action"
+    class="category" action="action"
     onclick="window.history.go(-1); return false;"
     type="submit"
-    value="Cancel"
+    value="&larr;&nbsp;Back to "
 />
 	 
-	 <button class="category onclick="goBack()">&larr;&nbsp;Back to </button>
 
 
 <script>
