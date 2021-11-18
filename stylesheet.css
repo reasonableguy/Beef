@@ -378,7 +378,7 @@ color:white;
     		padding-top: 0 !important;
 			}
 		
-		.recipe-page h2 {
+		.method h2 {
 text-align:center;
 		}
 		.recipe-page  > .grid-item.one-third{
@@ -407,7 +407,7 @@ text-align:center;
     		padding-top: 0 !important;
 			}
 			
-			.recipe-page h2 {
+			.method h2 {
 	padding-inline-start: 10%;
 }
 		
