@@ -311,6 +311,9 @@ a.recipe {
 		background-color: #ffffff;
 		margin:2px;
 }
+.recipe-title {
+	margin-bottom: 0;
+}
 .recipe-page .intro {
 background-color: #ffffff;
 	margin:2px;
@@ -381,7 +384,6 @@ color:white;
  			.method {
 			display:grid;
 			grid-template-columns:100%;
-		    background-color: rgba(255,255,255,.7);
     		padding-top: 0 !important;
 			}
 		
@@ -410,8 +412,7 @@ text-align:center;
 			.method {
 			display:grid;
 			grid-template-columns:34% 66%;
-				   background-color: rgba(255,255,255,.7);
-    		padding-top: 0 !important;
+				padding-top: 0 !important;
 			}
 			
 			.method h2 {
@@ -427,7 +428,7 @@ text-align:center;
 	 width: 33%;
 	float:left;
 		}
-				.recipe-page  > .grid-item.timing{
+				.recipe-page   .grid-item.timing{
 	width:33% !important;
 margin-left:33%;
 					text-align:left;
