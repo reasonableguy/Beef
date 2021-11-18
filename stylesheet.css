@@ -327,6 +327,10 @@ a.recipe {
     font-size: .8em;
     text-align: left;
     padding: 6px 0 6px 6px;
+	margin-block-start: .8em;
+    margin-block-end: .8em;
+    margin-inline-start: .8em;
+    margin-inline-start: .8em;
 }
 .recipe-page .category:after {
 	background-color: transparent;
