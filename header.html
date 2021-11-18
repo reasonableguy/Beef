@@ -7,11 +7,16 @@
   width: 100%;
   transition: 0.2s;
 }
-  #header a:hover {
+  #header a:hover #shared-beef{
     display:none !important;
   }
-    #header a:hover:after {
-content:'HOME';  }
+  #home-link{
+    display:none;
+  }
+  
+ #header a:hover #home-link{
+    display:block !important;
+  }
 </style>
   
   <div id="header" style="height:4em;">
@@ -26,7 +31,7 @@ content:'HOME';  }
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;padding:.4em 0;">
-      SHARED BEEF</a>
+           <span id="shared-beef">SHARED BEEF</span> <span id="home-link">HOME</span></a>
      </div>
   
 
