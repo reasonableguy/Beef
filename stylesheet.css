@@ -399,9 +399,8 @@ text-align:center;
 				.recipe-page  > .grid-item.one-whole{
 	width: 100%;
 		}
-	.recipe-page  > .grid-item.timing{
-	width: 100%;
-		}
+	.timing{
+    border: 2px solid rgba(0,0,0,.5);		}
 		
 				.method > .grid-item li {
 			margin: 20px 5px;
@@ -428,10 +427,10 @@ text-align:center;
 	 width: 33%;
 	float:left;
 		}
-				.recipe-page   .grid-item.timing{
-	width:33% !important;
-margin-left:33%;
-					text-align:left;
+	.timing{
+	    margin-left: 33%;
+    margin-right: 33%;
+    border: 2px solid rgba(0,0,0,.5);
 			}
 						.recipe-page  > .grid-item.two-thirds{
 	 width: 66%;
