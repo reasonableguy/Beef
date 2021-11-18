@@ -338,7 +338,9 @@ a.recipe {
 .recipe-page .category:hover {
 color:white;
 }
-
+.recipe-page .category:hover input {
+color:white;
+}
 	.recipe-page > .grid-item > img {
 		width:100%;
 		}
