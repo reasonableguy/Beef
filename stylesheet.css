@@ -330,7 +330,7 @@ a.recipe {
 	margin-block-start: .8em;
     margin-block-end: .8em;
     margin-inline-start: .8em;
-    margin-inline-start: .8em;
+    margin-inline-end: .8em;
 }
 .recipe-page .category:after {
 	background-color: transparent;
