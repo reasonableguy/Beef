@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/stylesheet.css">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+<style>
+/* INSERT CATEGORY */
+	.inner-category:after {
+		content:'Ground Beef Recipes';
+	}
+	.category {
+float:left;	}
+/* INSERT RECIPE TITLE */
+	.recipe-title:after {
+		content:'Keema';
+	}
+/* INSERT PREP TIME */
+	.prep-time:after {
+		content:'100 minutes';
+	}
+/* INSERT COOK TIME */
+	.cook-time:after {
+		content:'100 minutes';
+	}
+/* INSERT TOTAL TIME */
+	.total-time:after {
+		content:'100 minutes';
+	}
+/* INSERT SOURCE */
+	.source {
+		text-align: right;
+    		color: white;
+    		padding-right: 2%;
+	}
+	.source:after {
+		content:'NYT Cooking';
+	}
+	/* INSERT IMAGE URL */
+		</style>
+	<script type="text/javascript">
+	onload = function(){
+	var vara='https://img.taste.com.au/a-hVekGR/w643-h428-cfill-q90/taste/2019/05/korean-beef-bowl-149735-1.jpg';
+	document.getElementById('mypic').setAttribute('src',vara)
+	}
+	</script>
+
+	
+
+		
+<body>
+		<div w3-include-html="/header.html"></div>
+<div style="background-color:#ffffff;position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
+<div class="page">
+	<h1 class="recipe-title"></h1>
+ <div class="grid recipe-page">
+	 <div class="grid-item one-whole intro"> 
+		 <div class="grid-item one-third timing">
+			 <p class="prep-time">Prep Time: </p>
+			 <p class="cook-time">Cook Time: </p>
+			 <p class="total-time">Total Time: </p>
+		 </div> </div>
+ <div class="grid-item one-whole"><img id="mypic" src="">
+ </div>
+<div onclick="window.history.go(-1); return false;" class="category">
+	<p class="inner-category">&larr;&nbsp;Back to </p>
+	 </div>	 
+
+
+
+	 </div>
+	
+	 <div class="grid method">
+
+	 <div class="grid-item ingredients">
+		 <h2>Ingredients</h2>
+		 <ul>
+			 <li>¼ cup neutral oil, such as grapeseed or canola</li>
+			  <li>1 red onion, sliced</li>
+			  <li>4 garlic cloves</li>
+			  <li>1 (2-inch) piece fresh ginger, peeled</li>
+			  <li>1 green finger chile (or serrano chile), stem removed</li>
+<li>6 Roma tomatoes, quartered</li>
+<li>1 pound ground beef (preferably at least 15 percent fat)</li>
+<li>½ teaspoon chile powder, such as cayenne</li>
+<li>Kosher salt</li>
+<li>½ cup fresh cilantro leaves and tender stems</li>
+<li>½ cup fresh mint leaves</li>
+<li>½ teaspoon garam masala</li>
+		 </ul>
+ </div>
+  <div class="grid-item directions">
+	   <h2>Directions</h2>
+		 <ol>
+<li>In a large, heavy skillet, heat the oil over medium. Add the onion and cook, stirring occasionally, until evenly browned and caramelized, 25 to 30 minutes.</li>
+<li>Add the garlic, ginger and green chile to a food processor, and pulse until finely chopped. Add the tomatoes, caramelized onions and any oil from the skillet, and process again until finely chopped. Return the mixture to the skillet and bring to a simmer over medium-low heat.</li>
+<li>Stir in the ground beef. Sprinkle with the chile powder and 1 teaspoon salt, and cook, stirring occasionally to break up any clumps of meat, until most of the liquid has evaporated and the fat has floated up to the surface, about 30 minutes.</li>
+<li>Taste and adjust the salt, then stir in half the fresh herbs. Sprinkle with garam masala and remaining herbs and serve.</li>
+	  </ol>
+ </div> </div>
+	 <div><p class="source">Source: </p></div></div>
+
+
+<div w3-include-html="/footer.html"></div>
+ 
+
+  </body>
+  </html>
