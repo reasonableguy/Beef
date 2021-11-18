@@ -316,7 +316,7 @@ a.recipe {
 }
 .recipe-page .intro {
 background-color: #ffffff;
-	margin:2px;
+	margin: 0 0 20px 0;
 }
 .recipe-page {
 	background-color:rgba(255,255,255,.7);
@@ -369,14 +369,14 @@ color:white;
 		    padding-inline-start: 10% !important;
 			padding-inline-end: 5% !important;
     list-style-type: disc !important;
-    list-style-position: inside !important;
+    list-style-position: outside !important;
     text-align: left !important;
 }
 				.method > .grid-item > ol {	
 		    padding-inline-start: 10% !important;
 					padding-inline-end: 5% !important;
     list-style-type: decimal !important;
-    list-style-position: inside !important;
+    list-style-position: outside !important;
     text-align: left !important;
 }
 
