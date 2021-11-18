@@ -57,6 +57,13 @@ a {
     text-shadow: 1px 1px 4px white;
 		}
 
+.footer .grid {
+	margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+
 		.grid {
 			
 			padding-top:20px;
@@ -120,6 +127,7 @@ background-repeat: no-repeat;
 /*------------------------------------------------------ HOMEPAGE ------------------------------------------------------*/
 		.home {
 			background-color:rgba(255,255,255,.7);
+			width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
