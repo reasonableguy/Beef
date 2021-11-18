@@ -310,7 +310,7 @@ a.recipe {
 }
 
 .recipe-page {
-	background-color:rgba(255,255,255,.7);
+	background-color:rgba(255,255,255,1);
 	padding-top:0 !important;
 	width:100%;
 }
