@@ -303,14 +303,20 @@ a.recipe {
 }
 
 /*------------------------------------------------------ RECIPES ------------------------------------------------------*/
-	.ingredients, .directions {
+.grid.recipe-page, .grid.method {
+	padding-bottom:2px;
+}
+.ingredients, .directions {
 		text-align:left;
 		background-color: #ffffff;
 		margin:2px;
 }
-
+.recipe-page .intro {
+background-color: #ffffff;
+	margin:2px;
+}
 .recipe-page {
-	background-color:rgba(255,255,255,1);
+	background-color:rgba(255,255,255,.7);
 	padding-top:0 !important;
 	width:100%;
 }
@@ -403,7 +409,7 @@ text-align:center;
 		@media only screen and (min-width: 601px) {
 			.method {
 			display:grid;
-			grid-template-columns:33% 66%;
+			grid-template-columns:34% 66%;
 				   background-color: rgba(255,255,255,.7);
     		padding-top: 0 !important;
 			}
