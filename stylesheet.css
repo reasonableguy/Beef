@@ -476,9 +476,7 @@ border: 1px solid white;
 .recipe-page .category:hover input {
 color:white;
 }
-	.recipe-page > .grid-item > img {
-		width:100%;
-		}
+
 
 		
 		.method > .grid-item > ul {	
@@ -497,7 +495,10 @@ color:white;
 }
 
 	@media only screen and (max-width: 600px) {
- 			.method {
+ 				.recipe-page > .grid-item > img {
+		width:100%;
+		}
+		.method {
 			display:grid;
 			grid-template-columns:100%;
     		padding-top: 0 !important;
@@ -524,6 +525,10 @@ text-align:center;
 					}
 }
 		@media only screen and (min-width: 601px) {
+				.recipe-page > .grid-item > img {
+		width:75%;
+		}
+			
 			.method {
 			display:grid;
 			grid-template-columns:34% 66%;
