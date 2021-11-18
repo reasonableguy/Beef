@@ -56,8 +56,14 @@
  <div class="grid recipe-page">
  <div class="grid-item one-whole"><img id="mypic" src="">
  </div>
-	 <a class="category href="javascript:history.go(-1)">&larr;&nbsp;Back to </a>
-	 
+	 <button class="category onclick="goBack()">&larr;&nbsp;Back to </button>
+
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 	 <div class="grid-item one-whole"><h3 class="recipe-title"></h3></div>
 	 <div class="grid-item one-whole"> 
 		 <div class="grid-item one-third timing">
