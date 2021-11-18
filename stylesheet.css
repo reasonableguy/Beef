@@ -534,6 +534,8 @@ text-align:center;
 			grid-template-columns:34% 66%;
 				padding-top: 0 !important;
 				max-width:1220px;
+				margin:auto;
+				
 			}
 			
 			.method h2 {
