@@ -317,6 +317,9 @@ a.recipe {
 .recipe-page h2 {
 	padding-inline-start: 10%;
 }
+.recipe-page h3 {
+	margin-block-end: 0;
+}
 	.recipe-page > .grid-item > img {
 		width:100%;
 		}
