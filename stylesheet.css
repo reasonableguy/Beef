@@ -24,8 +24,11 @@ body {
 	display:inline-block;
 	  width: 100%;
 }
-h1,h3,p,a,li,button, input, .category:after,option {
+h1,h3,p,a,li,button, input, .category:after,option, select {
 			font-family: 'Raleway', sans-serif;
+		}
+p,input, option, select {
+			font-size: 1em;
 		}
 		h1{
 			background-color:rgba(255,255,255,.7);
