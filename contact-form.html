@@ -73,24 +73,24 @@
   	<table>
 		<tr>
 			<td>
-				<label>Your Name: </label>   
+				<label  for="title">Title for Recipe: </label>   
 		 	</td>
 		  	<td>
-				<input type="text" name="name" />
+				<input type="text" name="title" />
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<label>Your Email: </label>
+				<label for="source">Your Email: </label>
 		 	</td>
 		  	<td>
-				<input type="email" name="email" />
+				<input type="text" name="source" />
 			</td>
 		</tr>
 
 		<tr>
 			<td>
-				<label>Provide a picture for this dish: </label>
+				<label for="picture">Provide a picture for this dish: </label>
 		 	</td>
 		  	<td>
 				<input type="file" name="picture" />
@@ -99,38 +99,40 @@
 			
 		<tr>
 			<td>
-				 <label>Beef Cut: </label>
+				 <label for="cut">Beef Cut: </label>
 		 	</td>
 		  	<td>
-				<select name="cut[]" >
-				
-      <option value="Ground Beef">Ground Beef</option>
-      <option value="Stew Beef">Stew Beef</option>
-	          <option value="Maui Ribs">Maui Ribs</option>
-				
-      <option value="Tenderloin Steak">Tenderloin Steak</option>
-      <option value="NY Strip Sirloin Steak">NY Strip Sirloin Steak</option>
-      <option value="Chuck Steack">Chuck Steak</option>
-	          <option value="Rib Steak">Rib Steak</option>
-				
- <option value="Cross Rib Roast">Cross Rib Roast</option>
- <option value="Inside Round Roast">Inside Round Roast</option>
-					
-	     <option value="Beef Bones">Beef Bones</option>
- <option value="Beef Heart">Beef Heart</option>
-	     <option value="Beef Kidneys">Beef Kidneys</option>
-	     <option value="Beef Livers">Beef Livers</option>
-				
-
-    </select>
+				<select name="cut" >
+<option value="Ground Beef">Ground Beef</option>
+<option value="Stew Beef">Stew Beef</option>
+<option value="Maui Ribs">Maui Ribs</option>
+<option value="Tenderloin Steak">Tenderloin Steak</option>
+<option value="NY Strip Sirloin Steak">NY Strip Sirloin Steak</option>
+<option value="Chuck Steack">Chuck Steak</option>
+<option value="Rib Steak">Rib Steak</option>				
+<option value="Cross Rib Roast">Cross Rib Roast</option>
+<option value="Inside Round Roast">Inside Round Roast</option>
+<option value="Beef Bones">Beef Bones</option>
+<option value="Beef Heart">Beef Heart</option>
+<option value="Beef Kidneys">Beef Kidneys</option>
+<option value="Beef Livers">Beef Livers</option>
+</select>
 			</td>
 		</tr>
 	<tr>
 			<td>
-				<label>Message: </label>
+				<label for="ingredients">Ingredients:<br>(remember to include quantities)</label>
 		 	</td>
 		  	<td>
-				<textarea name="message"></textarea>
+				<textarea name="ingredients"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="directions">Directions: </label>
+		 	</td>
+		  	<td>
+				<textarea name="directions"></textarea>
 			</td>
 		</tr>
     
