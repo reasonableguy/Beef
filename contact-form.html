@@ -3,7 +3,17 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="stylesheet.css"> 
-</head>
+
+	<style>
+	#recipe-submit form {
+		bacground-color:#ffffff;
+		widtgh:80%;
+		}
+		#recipe-submit label {
+			width:100%;
+		}
+	</style>
+	</head>
 	<body>
 	<div w3-include-html="/header.html"></div>
 
@@ -14,7 +24,7 @@
 <div class="page">
   
 <div>
-	<form name="contact" method="POST" data-netlify="true">
+	<form id=recipe-submit" name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -26,8 +36,20 @@
 		</p>
   <p>
     <label>Beef Cut: <select name="cut[]" multiple>
-      <option value="">Ground Beef</option>
-      <option value="Stew BVeef">Stew Beef</option>
+      <option value="Ground Beef">Ground Beef</option>
+      <option value="Stew Beef">Stew Beef</option>
+	          <option value="Maui Ribs">Maui Ribs</option>
+      <option value="Tenderloin Steak">Tenderloin Steak</option>
+      <option value="NY Strip Sirloin Steak">NY Strip Sirloin Steak</option>
+      <option value="Chuck Steack">Chuck Steak</option>
+	          <option value="Rib Steak">Rib Steak</option>
+ <option value="Cross Rib Roast">Cross Rib Roast</option>
+ <option value="Inside Round Roast">Inside Round Roast</option>
+	     <option value="Beef Bones">Beef Bones</option>
+ <option value="Beef Heart">Beef Heart</option>
+	     <option value="Beef Kidneys">Beef Kidneys</option>
+	     <option value="Beef Livers">Beef Livers</option>
+
     </select></label>
   </p>
   <p>
