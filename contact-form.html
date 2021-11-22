@@ -25,17 +25,39 @@
   
 <div>
 	<form id="recipe-submit" name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-		<p>
-			<label>Provide a picture for this dish: <input type="file" name="picture" /></label>
-		</p>
-  <p>
-    <label>Beef Cut: <select name="cut[]" multiple>
+  	<table>
+		<tr>
+			<td>
+				<label>Your Name: </label>   
+		 	</td>
+		  	<td>
+				<input type="text" name="name" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Your Email: </label>
+		 	</td>
+		  	<td>
+				<input type="email" name="email" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label>Provide a picture for this dish: </label>
+		 	</td>
+		  	<td>
+				<input type="file" name="picture" />
+			</td>
+		</tr>
+			
+		<tr>
+			<td>
+				 <label>Beef Cut: </label>
+		 	</td>
+		  	<td>
+				<select name="cut[]" multiple>
       <option value="Ground Beef">Ground Beef</option>
       <option value="Stew Beef">Stew Beef</option>
 	          <option value="Maui Ribs">Maui Ribs</option>
@@ -50,14 +72,24 @@
 	     <option value="Beef Kidneys">Beef Kidneys</option>
 	     <option value="Beef Livers">Beef Livers</option>
 
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
+    </select>
+			</td>
+		</tr>
+	<tr>
+			<td>
+				<label>Message: </label>
+		 	</td>
+		  	<td>
+				<textarea name="message"></textarea>
+			</td>
+		</tr>
+    
+<tr>
+			<td colspan="2">
     <button type="submit">Send</button>
-  </p>
+		</td>
+		</tr>
+		</table>
 </form>
 	</div>
     </div>
