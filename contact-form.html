@@ -80,12 +80,12 @@ margin-block-end: 0px;
 	width: 50%;
 	    text-align: left;
 	    float: left;
-	    padding: 20px 0 0px;
+	    padding: 0px 0 0px;
 	    display: inline-block;
 	    min-height: 100px;
 		}
 		td:first-child {
-			padding: 20px 0 0px 10%;
+			padding: 0px 0 0px 10%;
 		}
 			label h3 {
 			padding-top: 5px;
@@ -96,13 +96,18 @@ margin-block-end: 0px;
 		}
 					label p {
     padding-bottom: 5px;
-                margin-block-start: 0px;
-margin-block-end: 0px;
+    margin-block-start: 2px;
+	    margin-block-end: 0px;
 	font-size: .8em;
     max-width: 45ch;
 white-space: nowrap;
 
  		}
+		.add-pic {
+			    margin-block-start: 2px;
+
+		}
+			
 			select, input {
     height: 30px;
     padding-left: 5px;
@@ -179,7 +184,7 @@ white-space: nowrap;
 		</tr>
 		<tr>
 			<td>
-				<label for="picture"><h3>Image </h3><p>(provide a mouth-watering icture for this dish)</p></label>
+				<label for="picture"><h3>Image </h3><p class=add-pic">(provide a mouth-watering picture for this dish)</p></label>
 		 	</td>
 		  	<td>
 				<input type="file" name="picture" />
