@@ -24,7 +24,7 @@ body {
 	display:inline-block;
 	  width: 100%;
 }
-h1,h3,p,a,li,button, input, .category:after,option, select {
+h1,h2, h3,p,a,li,button, input, .category:after,option, select {
 			font-family: 'Raleway', sans-serif;
 		}
 p,input, option, select {
@@ -39,6 +39,16 @@ p,input, option, select {
 			/* text-shadow: 1px 1px 4px white;*/
 			margin-top:0;
 		}
+
+h2 {
+		font-size:1.8em;
+			letter-spacing:2px;
+			padding-top:20px;
+			padding-bottom:20px;
+			text-transform: uppercase;
+			color: #000000;
+		}
+
 		h3{
 			font-size:1.5em;
 			letter-spacing:2px;
