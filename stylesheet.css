@@ -24,6 +24,7 @@ body {
 	padding:0 ;
 	display:inline-block;
 	  width: 100%;
+	background-color: #ffffff;
 }
 h1,h2, h3,p,a,li,button, input, .category:after,option, select {
 			font-family: 'Raleway', sans-serif;
