@@ -1,102 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/stylesheet.css">
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheet.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <style>
 /* INSERT CATEGORY */
-	.inner-category:after {
-		content:'Ground Beef Recipes';
-	}
-	.category {
-float:left;	}
+.inner-category:after {
+content:'Ground Beef';
+}
+.category {
+float:left; }
 /* INSERT RECIPE TITLE */
-	.recipe-title:after {
-		content:'Traditional Spaghetti Bolognese';
-	}
+.recipe-title:after {
+content:'traditional spaghetti bolognese';
+}
 /* INSERT PREP TIME */
-	.prep-time:after {
-		content:'3 minutes';
-	}
+.prep-time:after {
+content:'20 minutes';
+}
 /* INSERT TOTAL TIME */
-	.total-time:after {
-		content:'34 minutes';
-	}
-  /* INSERT SERVINGS */
-	.servings:after {
-		content:'4';
-	}
-
-	/* INSERT IMAGE URL */
-		</style>
-	<script type="text/javascript">
-	onload = function(){
-	var vara='https://d33wubrfki0l68.cloudfront.net/64f3472b-6d18-402f-9969-a4278b22b6c2/vegan-bowl.jpg';
-	document.getElementById('mypic').setAttribute('src',vara)
-	}
-	</script>
-
-	
-
-		
+.total-time:after {
+content:'1 hour';
+}
+/* INSERT SERVINGS */
+.servings:after {
+content:'4';
+}
+/* INSERT IMAGE URL */
+</style>
+<script type="text/javascript">
+onload = function(){
+var vara='https://d33wubrfki0l68.cloudfront.net/41f727f4-f4cd-40ef-9542-a3789a057031/EE17C42C-395F-48BC-BA64-18118A959E6C_1_201_a.heic';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
 <body>
-		<div w3-include-html="/header.html"></div>
+<div w3-include-html="/header.html"></div>
 <div style="background-color:#ffffff;position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
 <div class="page">
-	<h1 class="recipe-title"></h1>
- <div class="grid recipe-page">
-	 <div class="grid-item one-whole intro"> 
-		 <div class="grid-item one-third timing">
-			 <p class="prep-time">Prep Time: </p>
-			<p class="total-time">Total Time: </p>
-		  <p class="servings">Serves: </p>
-     </div> </div>
- <div class="grid-item one-whole"><img id="mypic" src="">
- </div>
-<div onclick="window.history.go(-1); return false;" class="category">
-	<p class="inner-category">&larr;&nbsp;Back to </p>
-	 </div>	 
-
-
-
-	 </div>
-	
-	 <div class="grid method">
-
-	 <div class="grid-item ingredients">
-		 <h2>Ingredients</h2>
-		 <ul>
-			 <li>¼ cup neutral oil, such as grapeseed or canola</li>
-			  <li>1 red onion, sliced</li>
-			  <li>4 garlic cloves</li>
-			  <li>1 (2-inch) piece fresh ginger, peeled</li>
-			  <li>1 green finger chile (or serrano chile), stem removed</li>
-<li>6 Roma tomatoes, quartered</li>
-<li>1 pound ground beef (preferably at least 15 percent fat)</li>
-<li>½ teaspoon chile powder, such as cayenne</li>
-<li>Kosher salt</li>
-<li>½ cup fresh cilantro leaves and tender stems</li>
-<li>½ cup fresh mint leaves</li>
-<li>½ teaspoon garam masala</li>
-		 </ul>
- </div>
-  <div class="grid-item directions">
-	   <h2>Directions</h2>
-		 <ol>
-<li>In a large, heavy skillet, heat the oil over medium. Add the onion and cook, stirring occasionally, until evenly browned and caramelized, 25 to 30 minutes.</li>
-<li>Add the garlic, ginger and green chile to a food processor, and pulse until finely chopped. Add the tomatoes, caramelized onions and any oil from the skillet, and process again until finely chopped. Return the mixture to the skillet and bring to a simmer over medium-low heat.</li>
-<li>Stir in the ground beef. Sprinkle with the chile powder and 1 teaspoon salt, and cook, stirring occasionally to break up any clumps of meat, until most of the liquid has evaporated and the fat has floated up to the surface, about 30 minutes.</li>
-<li>Taste and adjust the salt, then stir in half the fresh herbs. Sprinkle with garam masala and remaining herbs and serve.</li>
-	  </ol>
- </div> </div>
+<h1 class="recipe-title"></h1>
+<div class="grid recipe-page">
+<div class="grid-item one-whole intro">
+<div class="grid-item one-third timing">
+<p class="prep-time">Active Time: </p>
+<p class="total-time">Total Time: </p>
+<p class="servings">Serves: </p>
+</div> </div>
+<div class="grid-item one-whole"><img id="mypic" src="">
 </div>
+<div onclick="window.history.go(-1); return false;" class="category">
+<p class="inner-category">&larr;&nbsp;Back to </p>
+</div>
+</div>
+<div class="grid method">
+<div class="grid-item ingredients">
+<h2>Ingredients</h2>
+<ul>
+<li>2 Tbsp oil</li>
+<li>1 large onion, finely chopped</li>
+<li>2 cloves of garlic</li>
+<li>2 stalks celery, finely diced</li>
+<li>2 carrots, finely diced</li>
+<li>1lb ground beef</li>
+<li>¼ cup tomato paste</li>
+<li>14oz can crushed tomatoes</li>
+<li>1 tsp dried basil</li>
+<li>1 tsp dried oregano</li>
+<li>1 bay leaf</li>
+<li>3 cups beef stock (or water)</li>
+<li>1 tsp fish sauce</li>
+<li>Salt & Pepper</li>
 
 
+
+
+
+</ul>
+</div>
+<div class="grid-item directions">
+<h2>Directions</h2>
+<ol>
+<li>Start by ctting your onion and garlic, and dicing your vegetables (you can also throw them in the food processor).</li>
+<li>Heat oil in a large pot on med-high heat. Add onion and cook until soft and starting to brown. Stir regularly. Then add the garlic and veggies and cook until softened.</li>
+<li>Remove the vegetables and put them to one side. Add in the beef and quickly brown.</li>
+<li>Add tomato paste and stir through. Then pour in the tomatoes to begin to deglaze the pot.</li>
+<li>Add the vegetables and aromatics back in, along with the stock and the herbs.</li>
+<li>Bring to the boil, then reduce to a simmer and cook uncovered for 45 minutes (you want the sauce to be thick so it sticks to your pasta).</li>
+<li>Add fish sauce and season to taste with salt and pepper. serve over your carbohydrate of choice (pasta, rice, toast...)</li>
+
+
+
+
+
+</ol>
+</div> </div>
+</div>
 <div w3-include-html="/footer.html"></div>
- 
+</body>
+</html>
 
-  </body>
-  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
