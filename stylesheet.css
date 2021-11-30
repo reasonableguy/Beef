@@ -13,9 +13,8 @@ html {
 }
 body {
 	    background-color: #eeeeee;
-    height: fit-content;
-	margin:0 !important;
-	min-height:calc(100% - 130px);
+   	margin:0 !important;
+	
 }
 .page {
 	max-width:1440px;
