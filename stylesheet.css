@@ -441,6 +441,10 @@ a.recipe {
 		background-color: #ffffff;
 		margin:2px;
 }
+.ingredients {
+		padding: 0 20%;
+}
+
 .recipe-title {
 	margin-bottom: 0;
 }
@@ -545,9 +549,9 @@ text-align:center;
 			
 			.method {
 			display:grid;
-			grid-template-columns:34% 66%;
+			grid-template-columns:40% 60%;
 				padding-top: 0 !important;
-				max-width:1220px;
+				max-width:1440px;
 				margin:auto;
 				
 			}
