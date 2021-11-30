@@ -445,7 +445,7 @@ a.recipe {
 	margin-bottom: 0;
 }
 .recipe-page .intro {
-background-color: #ffffff;
+    background-color: transparent;
 	margin: 0 0 20px 0;
 }
 .recipe-page {
