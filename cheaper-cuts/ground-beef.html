@@ -15,6 +15,41 @@
 	<h1>
 	Ground Beef Recipes
 	</h1>
+	
+	
+	
+	<div>
+    <div class="c">Node</div>
+    <div class="c">Node</div>
+</div>
+<script>
+    function isLive(collection) {
+
+        const length = collection.length;
+
+        const el = collection.item(0);
+        const parent = el.parentNode;
+        const clone = el.cloneNode();
+        clone.innerHTML = 'Clone'
+        parent.appendChild(clone);
+
+        return ({
+            node: collection.toString(),
+            before: length,
+            after: collection.length,
+            live: collection.length !== length
+        })
+    }
+
+    const divs1 = document.getElementsByClassName('c');
+    const divs2 = document.querySelectorAll('.c');
+
+    console.log(isLive(divs1)); // true
+    console.log(isLive(divs2)); // false
+</script>
+	
+	
+	
 
 <button onclick="w3.sortHTML('#id02', 'li')">Sort Alphabetically</button><button onClick="window.location.reload();">Newest First</button>
     <ul id="id02" class="grid">
