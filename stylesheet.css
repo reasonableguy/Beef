@@ -317,6 +317,8 @@ a.recipe {
     bottom: 0;
 	  overflow: hidden;
 	padding: 10% 5%;
+	    background-size: 100%;
+    background-repeat: no-repeat;
 
 }
 	
