@@ -512,6 +512,7 @@ a.recipe {
     margin-block-end: .4em;
     margin-inline-start: .8em;
     margin-inline-end: .8em;
+	position:fixed;
 }
 .recipe-page .category:after {
 	background-color: transparent;
