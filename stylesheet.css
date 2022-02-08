@@ -583,6 +583,7 @@ text-align:center;
 	border: 1px solid black;
     margin: 5px 10px;
 	position:fixed;
+					background-color:white;
 }
 			.recipe-page > .grid-item > img {
 		width:75%;
