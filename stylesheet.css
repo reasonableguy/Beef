@@ -512,7 +512,7 @@ a.recipe {
     margin-block-end: .4em;
     margin-inline-start: .8em;
     margin-inline-end: .8em;
-	position:fixed;
+	
 }
 .recipe-page .category:after {
 	background-color: transparent;
@@ -521,10 +521,7 @@ a.recipe {
     text-align: left;
     padding: 6px 6px 6px 0;
 }
-.recipe-page .category {
-	border: 1px solid black;
-    margin: 5px 10px;
-}
+
 .recipe-page .category:hover {
 color:white;
 border: 1px solid white;
@@ -582,7 +579,12 @@ text-align:center;
 					}
 }
 		@media only screen and (min-width: 601px) {
-				.recipe-page > .grid-item > img {
+				.recipe-page .category {
+	border: 1px solid black;
+    margin: 5px 10px;
+	position:fixed;
+}
+			.recipe-page > .grid-item > img {
 		width:75%;
 		}
 			
