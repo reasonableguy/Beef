@@ -367,7 +367,7 @@ a.recipe {
     bottom: 0;
 	  overflow: hidden;
 	padding: 10% 5%;
-	    background-size: contain;
+	    background-size: 50%;
     background-repeat: no-repeat;
 }
 	
@@ -376,8 +376,9 @@ a.recipe {
 		background-color: rgba(255,255,255,.7);
     padding: 4px 2px;
     max-width: 20ch;
-    margin: 0 0 0 50% ;
+    margin: 0 auto ;
 		position:absolute;
+		left:50%;
 	}
 
 	
