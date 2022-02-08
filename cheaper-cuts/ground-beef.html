@@ -17,10 +17,11 @@
 	</h1>
 	# navigation.html
 <ul>
-  {% assign _pages = site.pages | sort: "order" %}
-    {% for pg in _pages %}
-    <li><a href="{{pg.url}}" {% if {{pg.url}} == {{page.url}} %} class="active" {% endif %}>{{ pg.title }}</a></li>
-    {% endfor %}
+  {% for item in site.pages %}
+    <li {% if page.url contains 'ground-beef/' %}class="active"{% endif %}>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 	
 	
