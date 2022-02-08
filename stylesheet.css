@@ -299,7 +299,7 @@ padding: 0 5%;  }
     height: 0;
     padding-bottom: 15%;
     padding-right: 5px;
-    padding-top: calc(15% - 19px);
+    padding-top: calc(30% - 19px);
 	    z-index:0;
     overflow:hidden;
     position:relative; 
@@ -320,9 +320,16 @@ a.recipe {
     bottom: 0;
 	  overflow: hidden;
 	padding: 10% 5%;
+	    background-size: cover;
+    background-repeat: no-repeat;
 
 
 }
+	
+	a.recipe > p
+	{
+    		background-color:rgba(255,255,255,.7);
+	}
 	
 
 
