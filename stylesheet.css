@@ -426,7 +426,7 @@ a.recipe {
     margin: 0 auto;
 	}
 	a.recipe:hover > p {
-		background-color: rgba(0,255,255,.7);
+		background-color: rgba(255,255,255,1);
     padding: 4px 2px;
     max-width: 20ch;
     margin: 0 auto;
@@ -438,11 +438,9 @@ a.recipe {
     		background-color:rgba(255,255,255,1);
 			z-index: 100;
 		overflow: overlay;
- 		display: block;
+ 		display: none;
 		bottom: unset;
-    		
-
-}
+    		}
 	
 
 
