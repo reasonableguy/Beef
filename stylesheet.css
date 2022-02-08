@@ -82,6 +82,9 @@ a {
 		ul {
 			    padding-inline-start: 0px !important;
 		}
+button.sort {
+		 margin:0 20px;
+}
 button {
 	    margin:20px;
 	width:250px;
