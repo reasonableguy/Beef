@@ -372,12 +372,13 @@ a.recipe {
 	
 
 	a.recipe > p {
-	    background-color: rgba(255,255,255,.7);
+	    background-color: rgba(255,255,255,0);
     padding: 4px 2px;
     max-width: 20ch;
     margin: auto;
     position: absolute;
     left: 50%;
+		top:20%;
     text-align: center;
     width: 50%;
 	}
