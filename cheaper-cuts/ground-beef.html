@@ -15,18 +15,7 @@
 	<h1>
 	Ground Beef Recipes
 	</h1>
-	# navigation.html
-<ul>
-  {% for item in site.pages %}
-    <li {% if page.url contains 'ground-beef/' %}class="active"{% endif %}>
-      <a href="{{ item.url }}">{{ item.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-	
-	
-	
-	
+
 
 <button onclick="w3.sortHTML('#id02', 'li')">Sort Alphabetically</button><button onClick="window.location.reload();">Newest First</button>
     <ul id="id02" class="grid">
