@@ -373,12 +373,14 @@ a.recipe {
 	
 
 	a.recipe > p {
-		background-color: rgba(255,255,255,.7);
+	    background-color: rgba(255,255,255,.7);
     padding: 4px 2px;
     max-width: 20ch;
-    margin: 0 auto ;
-		position:absolute;
-		left:50%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 50%;
 	}
 
 	
@@ -386,9 +388,7 @@ a.recipe {
 
 	.collection:hover a.recipe > p {
 				background-color: rgba(255,255,255,1);
-    padding: 4px 2px;
-    max-width: 20ch;
- margin: 0 0 0 50% ;    		}
+	}
 	
 }
 @media only screen and (min-width: 769px) {
