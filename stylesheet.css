@@ -425,20 +425,15 @@ a.recipe {
     max-width: 20ch;
     margin: 0 auto;
 	}
-	a.recipe:hover > p {
-		background-color: rgba(255,255,255,1);
-    padding: 4px 2px;
-    max-width: 20ch;
-    margin: 0 auto;
-	}
+
 	
 
 
-	.collection:hover a.recipe  {
-			z-index: 100;
-		overflow: overlay;
- 		display: block;
-		bottom: unset;
+	.collection:hover a.recipe > p {
+				background-color: rgba(255,255,255,1);
+    padding: 4px 2px;
+    max-width: 20ch;
+    margin: 0 auto;
     		}
 	
 
