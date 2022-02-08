@@ -408,6 +408,7 @@ a.recipe {
 	    z-index:0;
     overflow:hidden;
     position:relative; 
+		flex: calc(33% - 10px);
 	}
 	
 			.collection:hover   {
