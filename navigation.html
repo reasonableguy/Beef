@@ -1,0 +1,7 @@
+<ul>
+  {% assign _pages = site.pages | sort: "order" %}
+    {% for pg in _pages %}
+    <li><a href="{{pg.url}}" {% if {{pg.url}} == {{page.url}} %} class="active" {% endif %}>{{ pg.title }}</a></li>
+    {% endfor %}
+</ul>
+
