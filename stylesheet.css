@@ -584,6 +584,7 @@ text-align:center;
     margin: 5px 10px;
 	position:fixed;
 					background-color:white;
+					top:7px;
 }
 			.recipe-page > .grid-item > img {
 		width:75%;
