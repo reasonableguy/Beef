@@ -9,7 +9,7 @@
 
 <style>
 .visible {
-	display:block;
+	display:block !important;
 }
 </style>
 
