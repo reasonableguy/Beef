@@ -9,7 +9,7 @@
 
 	
 <style>
-.thanks{
+.visible{
 	opacity:1 !important;
 }
 </style>
@@ -21,7 +21,7 @@
 <script>
 	$('body').on('click',function(event){
   
-     $("#thanks").removeClass("thanks");
+     $("#thanks").removeClass("visible");
    
 });
 </script>
