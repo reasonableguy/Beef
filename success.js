@@ -29,7 +29,8 @@
 
  <div id="thanks" class="visible" style="padding:15% 5%;display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:white;">
 <h3>Thanks for adding your recipe</h3>
-<p style="line-height: 2rem;    max-width: 50ch;    margin: 0 auto;    font-size: 1.3em;">Your recipe will soon be added for others to enjoy. The work is being performed by our highly skilled army of farm cats. It takes about a day but may be longer if it's a nap-in-the-sun sort of day.</p>. 
+<p style="line-height: 2rem;    max-width: 50ch;    margin: 0 auto;    font-size: 1.3em;">Your recipe will soon be added for others to enjoy. The work is being performed by our highly skilled army of farm cats. It takes about a day but may be longer if it's a nap-in-the-sun sort of day.</p>
+<img src="https://d33wubrfki0l68.cloudfront.net/803fb523-df28-43d6-a7fa-82bf575ae282/h-xuan-hoang-d-ng-WL_kPEF3eLA-unsplash.jpg">
 
 		</div>
 
