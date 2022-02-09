@@ -18,11 +18,12 @@
 
 		</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-	$('body').on('click',function(event){
-  
-     $("#thanks").removeClass("visible");
-   
+$(document).ready(function(){
+  $("body").click(function(){
+    $("#thanks").removeClass("visible");
+  });
 });
 </script>
 
