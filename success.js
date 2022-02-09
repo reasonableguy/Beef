@@ -24,7 +24,7 @@
 }
 
 #thanks {
-	padding:15% 5%;display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:white;
+	padding:15% 5%;display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;margin-top:10%;background-color:white;
 }
 #thanks p {
 	line-height: 2rem;    max-width: 50ch;    margin: 0 auto;    font-size: 1.3em;
