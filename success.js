@@ -30,7 +30,7 @@
 	<h1>
 	Recipes by Beef Cuts
 	</h1>
-	<div class="grid home">
+	<div class="grid home" style="position:fixed;top:0;left:0;margin-left:10%;margin-top:10%;background-color:blue;">
 		<div class="grid-item">
 			<h3>Cheaper Cuts</h3>
 			<ul>
