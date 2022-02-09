@@ -52,10 +52,10 @@
 	</div>
 <style>
 .visible{
-	opacity:1 !important;
+	display:block;
 }
 </style>
- <div id="thanks" class="visible" style="opacity:0;z-index:100;position:absolute;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;">
+ <div id="thanks" class="visible" style="display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;">
 <h3>cheers boyo!</h3>
 
 		</div>
