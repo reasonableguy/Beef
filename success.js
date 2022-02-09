@@ -9,7 +9,7 @@
 
 	
 
- <div style="position:absolute;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;>
+ <div style="z-index:100;position:absolute;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;>
 <h3>cheers boyo!</h3>
 
 		</div>
