@@ -32,7 +32,7 @@
 <p style="line-height: 2rem;    max-width: 50ch;    margin: 0 auto;    font-size: 1.3em;">Your recipe will soon be added for others to enjoy. The work is being performed by our highly skilled army of farm cats. It takes about a day but may be longer if it's a nap-in-the-sun sort of day.</p>
      <div style="height: 200px;    background-size: contain;    background-image: url(https://d33wubrfki0l68.cloudfront.net/803fb523-df28-43d6-a7fa-82bf575ae282/h-xuan-hoang-d-ng-WL_kPEF3eLA-unsplash.jpg);    background-repeat: no-repeat;    margin: 10% auto 0;    background-position: center;"		</div>
 
-
+</div>
 
 	<h1>
 	Recipes by Beef Cuts
