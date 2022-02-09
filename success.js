@@ -8,24 +8,7 @@
 	<div w3-include-html="/header.html"></div>
 
 	
-<style>
-.visible{
-	opacity:1 !important;
-}
-</style>
- <div id="thanks" class="visible" style="opacity:.3;z-index:100;position:absolute;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;">
-<h3>cheers boyo!</h3>
 
-		</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("body").click(function(){
-    $("#thanks").removeClass("visible");
-  });
-});
-</script>
 
 	
 <div class="page background" style="top:0;left:0;width:100%;height:100%;">
