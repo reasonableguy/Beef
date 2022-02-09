@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheet.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<style>
+/* INSERT CATEGORY */
+.inner-category:after {
+content:'Stew Beef';
+}
+.category {
+float:left; }
+/* INSERT RECIPE TITLE */
+.recipe-title:after {
+content:'Vietnamese Beef Stew (Marion's Kitchen)';
+}
+/* INSERT ACTIVE TIME */
+.active-time:after {
+content:'15 minutes, plus a bit of time tending the pot while it simmers';
+}
+/* INSERT TOTAL TIME */
+.total-time:after {
+content:'Prep - 15 minutes. Cooking - 2.5+ hours';
+}
+/* INSERT SERVINGS */
+.servings:after {
+content:'4';
+}
+/* INSERT IMAGE URL */
+</style>
+<script type="text/javascript">
+onload = function(){
+var vara='https://d33wubrfki0l68.cloudfront.net/44e7c524-1390-4099-ae4c-c6a5921701b6/Capture.PNG';
+document.getElementById('mypic').setAttribute('src',vara)
+}
+</script>
+<body>
+<div w3-include-html="/header.html"></div>
+<div style="background-color:#ffffff;position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;"></div>
+<div class="page">
+<h1 class="recipe-title"></h1>
+<div class="grid recipe-page">
+<div class="grid-item one-whole intro">
+<div class="grid-item one-third timing">
+<p class="active-time">Active Time: </p>
+<p class="total-time">Total Time: </p>
+<p class="servings">Serves: </p>
+</div> </div>
+<div class="grid-item one-whole"><img id="mypic" src="">
+</div>
+<div onclick="window.history.go(-1); return false;" class="category">
+<p class="inner-category">&larr;&nbsp;Back to </p>
+</div>
+</div>
+<div class="grid method">
+<div class="grid-item ingredients">
+<h2>Ingredients</h2>
+<ul>
+<li>1.2kg (2.6 lb) chuck steak, cut into roughly 4cm cubes </li>
+<li>vegetable oil for shallow frying </li>
+<li>5 small Asian shallots, finely chopped </li>
+<li>3 garlic cloves, finely chopped </li>
+<li>3 tbsp tomato paste </li>
+<li>3 slices of fresh ginger</li>
+<li> 3 whole star anise </li>
+<li>1 cinnamon stick </li>
+<li>2 small carrots, cut into bite-sized chunks </li>
+<li>1½ tbsp fish sauce (or to taste) </li>
+<li>coriander (cilantro) leaves to serve </li>
+<li>baguette or steamed rice to serve </li>
+<li>Marinade: </li>
+<li>1 lemongrass stalk, tender part bruised and finely sliced </li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div class="grid-item directions">
+<h2>Directions</h2>
+<ol>
+<li>Directions available on Marion's website: https://www.marionskitchen.com/vietnamese-beef-stew/ </li>
+<li>Combine the marinade ingredients in a large bowl. </li>
+<li>Add the chuck steak and mix well. Allow to marinate for 5-10 minutes. </li>
+<li>Preheat oven to 150°C/300°F. </li>
+<li>Heat a tablespoon of oil in a large heavy-based casserole dish or dutch oven over high heat. Sear the beef (in batches if necessary) until you have good colour on the outside. Transfer the beef to large bowl. </li>
+<li>Pour over any leftover marinade from the bowl. In the same pan over medium-high heat, add another tablespoon of oil. Add the shallots and garlic cook, stirring for 2-3 minutes or until the shallots have softened. </li>
+<li>Add the tomato paste and cook for another minute. Then add the ginger, star anise and cinnamon stick. Add the beef and any resting juices and toss to coat. Add the carrots and 3 cups of water and stir to combine. </li>
+<li>Bring to a gentle simmer then cover and place in the oven for 2 hours or until the beef is fork tender. (alternatively, simmer on low on the stovetop for 2 hours). </li>
+<li>When the beef is cooked, taste the stew for seasoning and the fish sauce (add more or less according to taste). </li>
+<li>Transfer the beef stew to serving plates and top with coriander. Serve with a chunk of baguette and/or steamed rice.</li>
+<li></li>
+<li></li>
+</ol>
+</div> </div>
+</div>
+<div w3-include-html="/footer.html"></div>
+</body>
+</html>
