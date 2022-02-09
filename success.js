@@ -15,6 +15,10 @@
 .visible {
 	display:block !important;
 }
+#thanks:before{
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+}
 </style>
 	
 <div class="page background" style="top:0;left:0;width:100%;height:100%;">
@@ -22,7 +26,7 @@
 
  <div id="thanks" class="visible" style="display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:white;">
 <h3>Thanks for adding your recipe</h3>
-<p>Your recipe will soon be added for others to enjoy. The work is being performed by our highly skilled army of farm cats. It takes about a day but may be longer if it's a nap-in-the-sun sort of day.</p>. 
+<p style="max-width:65ch;margin-0 auto;">Your recipe will soon be added for others to enjoy. The work is being performed by our highly skilled army of farm cats. It takes about a day but may be longer if it's a nap-in-the-sun sort of day.</p>. 
 
 		</div>
 
