@@ -7,14 +7,21 @@
 	<body>
 	<div w3-include-html="/header.html"></div>
 
-<style>
+
+
+	
+
+	<style>
 .visible {
 	display:block !important;
 }
 </style>
+	
+<div class="page background" style="top:0;left:0;width:100%;height:100%;">
 
- <div id="thanks" class="visible" style="display:none;z-index:100;position:relative;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;">
-<h3>cheers boyo!</h3>
+
+ <div id="thanks" class="visible" style="display:none;z-index:100;position:fixed;top:0;left:0;width:80%;margin-left:10%;height:80%;margin-top:10%;background-color:red;">
+<h3>cheers boo!</h3>
 
 		</div>
 
@@ -27,11 +34,6 @@ $(document).ready(function(){
 });
 </script>
 
-	
-
-
-	
-<div class="page background" style="top:0;left:0;width:100%;height:100%;">
 	<h1>
 	Recipes by Beef Cuts
 	</h1>
