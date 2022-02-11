@@ -307,7 +307,7 @@ white-space: normal;
   </body>
 	<script>
 		
-
+jQuery(document).ready(function () {
 var i = $('.dir-inputs input').size() + 1;
 
 $('.dir-inputs').on('keyup', '.section-dir-field:last', function (e) {
@@ -326,6 +326,6 @@ $('.ing-inputs').on('keyup', '.section-ing-field:last', function (e) {
         $('.ing-inputs').append($(html_new_field).fadeIn('slow'));
         i++;
     }
-});
+});});
 	</script>
 </html>
