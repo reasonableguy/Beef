@@ -262,10 +262,12 @@ white-space: normal;
 		</tr>
 	<tr>
 			<td>
-				<label for="ingredients"><h3>Ingredients</h3><p>(remember to include quantities)</p></label>
+				<label for="ingredients1"><h3>Ingredients</h3><p>(remember to include quantities)</p></label>
 		 	</td>
 		  	<td>
-				<textarea required name="ingredients"></textarea>
+				   <div class="ing-inputs">
+        <input name="txtTopicGame1" class="section-ing-field" type="text" onfocus="this.value=''" placeholder="Ingredient #1"/><br />
+     </div>
 			</td>
 		</tr>
 		<tr>
@@ -285,6 +287,29 @@ white-space: normal;
 		</tr>
 		</table>
 </form>
+	>script>
+	
+
+var i = $('.dir-inputs input').size() + 1;
+
+$('.dir-inputs').on('keyup', '.section-dir-field:last', function (e) {
+    if ($(this).val() != "") {
+        var html_new_field = '<input name="txtTopicGame' + i + '" class="section-dir-field" type="text" onfocus="this.value=\'\'" placeholder="Direction #' + i + '" /><br />';
+        $('.dir-inputs').append($(html_new_field).fadeIn('slow'));
+        i++;
+    }
+});
+
+var i = $('.ing-inputs input').size() + 1;
+
+$('.ing-inputs').on('keyup', '.section-ing-field:last', function (e) {
+    if ($(this).val() != "") {
+        var html_new_field = '<input name="txtTopicGame' + i + '" class="section-ing-field" type="text" onfocus="this.value=\'\'" placeholder="Ingredient #' + i + '" /><br />';
+        $('.ing-inputs').append($(html_new_field).fadeIn('slow'));
+        i++;
+    }
+});
+	</script>
 	</div>
     </div>
 <div w3-include-html="/footer.html"></div>
