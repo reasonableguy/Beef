@@ -192,45 +192,8 @@ white-space: normal;
 <div class="page">
   
 <div>
-	  <form method="post" action="">
-    <div class="row">
-        <div class="col-lg-12">
-            <div id="inputFormRow">
-                <div class="input-group mb-3">
-                    <input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">
-                    <div class="input-group-append">                
-                        <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
-                    </div>
-                </div>
-            </div>
-
-            <div id="newRow"></div>
-            <button id="addRow" type="button" class="btn btn-info">Add Row</button>
-        </div>
-    </div>
-</form> 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-    // add row
-    $("#addRow").click(function () {
-        var html = '';
-        html += '<div id="inputFormRow">';
-        html += '<div class="input-group mb-3">';
-        html += '<input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">';
-        html += '<div class="input-group-append">';
-        html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
-        html += '</div>';
-        html += '</div>';
-
-        $('#newRow').append(html);
-    });
-
-    // remove row
-    $(document).on('click', '#removeRow', function () {
-        $(this).closest('#inputFormRow').remove();
-    });
-</script>
+	  
+ 
 	
 	<form action="/success.js" id="recipe-submit" name="contact" method="POST" data-netlify="true">
 	
@@ -305,9 +268,44 @@ white-space: normal;
 				<label for="ingredients1"><h3>Ingredients</h3><p>(remember to include quantities)</p></label>
 		 	</td>
 		  	<td>
-			    <div class="ing-inputs">
-        <input name="txtTopicGame1" class="section-ing-field" type="text" onfocus="this.value=''" placeholder="Ingredient #1"/><br />
-     </div>
+		   <div class="row">
+        <div class="col-lg-12">
+            <div id="inputFormRow">
+                <div class="input-group mb-3">
+                    <input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">
+                    <div class="input-group-append">                
+                        <button id="removeRow" type="button" class="btn btn-danger">Remove</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="newRow"></div>
+            <button id="addRow" type="button" class="btn btn-info">Add Row</button>
+        </div>
+    </div>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    // add row
+    $("#addRow").click(function () {
+        var html = '';
+        html += '<div id="inputFormRow">';
+        html += '<div class="input-group mb-3">';
+        html += '<input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">';
+        html += '<div class="input-group-append">';
+        html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
+        html += '</div>';
+        html += '</div>';
+
+        $('#newRow').append(html);
+    });
+
+    // remove row
+    $(document).on('click', '#removeRow', function () {
+        $(this).closest('#inputFormRow').remove();
+    });
+</script>
      
 			</td>
 		</tr>
@@ -345,27 +343,5 @@ white-space: normal;
 
 
   </body>
-	<script>
-		
-
-var i = $('.dir-inputs input').size() + 1;
-
-$('.dir-inputs').on('keyup', '.section-dir-field:last', function (e) {
-    if ($(this).val() != "") {
-        var html_new_field = '<input name="txtTopicGame' + i + '" class="section-dir-field" type="text" onfocus="this.value=\'\'" placeholder="Direction #' + i + '" /><br />';
-        $('.dir-inputs').append($(html_new_field).fadeIn('slow'));
-        i++;
-    }
-});
-
-var i = $('.ing-inputs input').size() + 1;
-
-$('.ing-inputs').on('keyup', '.section-ing-field:last', function (f) {
-    if ($(this).val() != "") {
-        var html_new_field = '<input name="txtTopicGame' + i + '" class="section-ing-field" type="text" onfocus="this.value=\'\'" placeholder="Ingredient #' + i + '" /><br />';
-        $('.ing-inputs').append($(html_new_field).fadeIn('slow'));
-        i++;
-    }
-});
-	</script>
+	
 </html>
