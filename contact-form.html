@@ -192,6 +192,40 @@ white-space: normal;
 <div class="page">
   
 <div>
+	      <form method="post" id="achievementf1" action="">
+            <span>1.</span>
+            <input type="text" name="achievement1" id="achievement1" />
+            <br />
+            <span>2.</span>
+            <input type="text" name="achievement2" id="achievement2" />
+            <br />
+            <span>3.</span>
+            <input type="text" name="achievement3" id="achievement3" />  
+            <br />                      
+            <input type="submit" name="submit1" value="Registrate" />
+          </form>  
+	
+	<script>
+		$(function(){
+    $(document).on("change","input", function(){
+        var allGood=true;
+        var lastInputField=0;
+        $("input").each(function() {
+            if ($(this).val() =="") {
+                allGood=false;
+                return false;
+            }
+            lastInputField++;
+        });
+
+        if (allGood) {
+            $("<span>" + lastInputField + "<input type='text' id='lastinputfieldId" + lastInputField +"'" +
+              "name='lastinputfieldName" + lastInputField + "'></span>").appendTo("form");
+        }
+    });
+});
+	</script>
+	
 	<form action="/success.js" id="recipe-submit" name="contact" method="POST" data-netlify="true">
 	
 		<table>
