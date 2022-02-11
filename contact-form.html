@@ -265,9 +265,10 @@ white-space: normal;
 				<label for="ingredients1"><h3>Ingredients</h3><p>(remember to include quantities)</p></label>
 		 	</td>
 		  	<td>
-				   <div class="ing-inputs">
+			    <div class="ing-inputs">
         <input name="txtTopicGame1" class="section-ing-field" type="text" onfocus="this.value=''" placeholder="Ingredient #1"/><br />
      </div>
+     
 			</td>
 		</tr>
 		<tr>
@@ -275,7 +276,11 @@ white-space: normal;
 				<label for="directions"><h3>Directions</h3><p>(break down the steps for us)</p></label>
 		 	</td>
 		  	<td>
-				<textarea required name="directions"></textarea>
+	
+   
+    <div class="dir-inputs">
+        <input name="Directions1" class="section-dir-field" type="text" onfocus="this.value=''" placeholder="Direction #1"/><br />
+     </div>
 			</td>
 		</tr>
 
@@ -286,12 +291,22 @@ white-space: normal;
 		</td>
 		</tr>
 		</table>
-		<div class="ing-inputs">
-        <input name="txtTopicGame1" class="section-ing-field" type="text" onfocus="this.value=''" placeholder="Ingredient #1"/><br />
-     </div>
+
+
+     
+     
+    
+     
 </form>
+
+	</div>
+    </div>
+<div w3-include-html="/footer.html"></div>
+
+
+  </body>
 	<script>
-	
+		
 
 var i = $('.dir-inputs input').size() + 1;
 
@@ -313,8 +328,4 @@ $('.ing-inputs').on('keyup', '.section-ing-field:last', function (e) {
     }
 });
 	</script>
-	</div>
-    </div>
-<div w3-include-html="/footer.html"></div>
-  </body>
 </html>
