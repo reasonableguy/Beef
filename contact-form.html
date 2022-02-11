@@ -307,7 +307,7 @@ white-space: normal;
   </body>
 	<script>
 		
-$(document).ready(function() {
+
 var i = $('.dir-inputs input').size() + 1;
 
 $('.dir-inputs').on('keyup', '.section-dir-field:last', function (e) {
@@ -320,12 +320,12 @@ $('.dir-inputs').on('keyup', '.section-dir-field:last', function (e) {
 
 var i = $('.ing-inputs input').size() + 1;
 
-$('.ing-inputs').on('keyup', '.section-ing-field:last', function (e) {
+$('.ing-inputs').on('keyup', '.section-ing-field:last', function (f) {
     if ($(this).val() != "") {
         var html_new_field = '<input name="txtTopicGame' + i + '" class="section-ing-field" type="text" onfocus="this.value=\'\'" placeholder="Ingredient #' + i + '" /><br />';
         $('.ing-inputs').append($(html_new_field).fadeIn('slow'));
         i++;
     }
-});});
+});
 	</script>
 </html>
