@@ -288,7 +288,8 @@ white-space: normal;
 <script type="text/javascript">
     // add row
     $("#addRow").click(function () {
-        var html = '';
+        var i = $('.input-group input').size() + 1;
+	    var html = '';
         html += '<div id="inputFormRow">';
         html += '<div class="input-group mb-3">';
         html += '<input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">';
