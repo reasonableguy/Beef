@@ -265,7 +265,7 @@ white-space: normal;
 		</tr>
 	<tr>
 			<td>
-				<label for="ingredients1"><h3>Ingredients</h3><p>(remember to include your quantities)</p></label>
+				<label for="ingredients1"><h3>Ingredients</h3><p>(remember to include quantities)</p></label>
 		 	</td>
 		  	<td>
 		   <div class="row">
@@ -288,11 +288,10 @@ white-space: normal;
 <script type="text/javascript">
     // add row
     $("#addRow").click(function () {
-        var i = $('.input-group').size() + 1;
 	    var html = '';
         html += '<div id="inputFormRow">';
         html += '<div class="input-group mb-3">';
-        html += '<input type="text" name="title[]" class="form-control m-input" placeholder="Enter title" autocomplete="off">';
+        html += '<input type="text" name="title[]" class="form-control m-input" placeholder="Ingredient" autocomplete="off">';
         html += '<div class="input-group-append">';
         html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';
         html += '</div>';
