@@ -305,7 +305,7 @@ white-space: normal;
 	    var html = '';
         html += '<div id="inputFormRow">';
         html += '<div class="input-group mb-3" style="margin-bottom:0 !important;">';
-        html += '<input  style="margin-bottom: 0.1rem;width:100%;height:35px;padding-left:5px;border:1px rgb(118,118,118) solid;border-radius:0;" type="text" name="title[]" class="form-control m-input" placeholder="Ingredient" autocomplete="off">';
+        html += '<input id="id" style="margin-bottom: 0.1rem;width:100%;height:35px;padding-left:5px;border:1px rgb(118,118,118) solid;border-radius:0;" type="text" name="title[]" class="form-control m-input" placeholder="Ingredient" autocomplete="off">';
         html += '<div class="input-group-append">';
         /* html += '<button id="removeRow" type="button" class="btn btn-danger">Remove</button>';  */
         html += '</div>';
@@ -313,8 +313,7 @@ white-space: normal;
 
         $('#newRow').append(html);
     });
-	var counter = 0;
-input.setAttribute("id", 'textBar' + counter++);  
+var id = "id" + Math.random().toString(16).slice(2)
 
 
    
