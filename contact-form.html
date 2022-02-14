@@ -318,7 +318,7 @@ white-space: normal;
     
 <tr>
 			<td class="submit" colspan="2">
-    <button class="submit" type="submit">Share</button>
+    <button id="button" class="submit" type="submit">Share</button>
 		</td>
 		</tr>
 		</table>
@@ -332,6 +332,15 @@ white-space: normal;
 
 	</div>
     </div>
+		<script>
+			
+			if(!$('input').val()){
+    $('#button').hide();
+}
+else {
+    $('#button').show();
+}
+			</script>
 <div w3-include-html="/footer.html"></div>
 
 
