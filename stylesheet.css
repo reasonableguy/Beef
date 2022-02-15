@@ -311,7 +311,7 @@ padding: 0 5%;  }
 	}
 	
 			.collection:hover   {
-     background-color:rgba(255,255,255,1);
+     background-color:rgba(255,255,255,0);
 overflow:visible;
     z-index:100;
 }
